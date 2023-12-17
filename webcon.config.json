@@ -1,0 +1,12 @@
+{
+  "elements": {
+    "wc-title": {
+      "template": "app/views/title/title.html",
+      "style": "app/views/title/title.css"
+    },
+    "wc-welcome": {
+      "template": "app/views/welcome/welcome.html",
+      "style": "app/views/welcome/welcome.css"
+    }
+  }
+}

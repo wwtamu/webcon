@@ -1,0 +1,12 @@
+{
+  "watch": [
+    "app",
+    "lib",
+    "server.ts",
+    "webcon.config.json"
+  ],
+  "exec": "npm start",
+  "ext": "ts",
+  "delay": "3",
+  "ignore": []
+}

@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "esnext",
+      "es2018",
+      "dom"
+    ]
+  },
+  "include": [
+    "lib/**/*",
+    "app/**/*",
+    "server.ts"
+  ],
+  "exclude": [
+    "node_modues"
+  ]
+}
